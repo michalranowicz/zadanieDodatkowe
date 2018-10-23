@@ -1,3 +1,56 @@
+.container {
+  width: 1170px;
+  margin-left: 315px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
 .header {
   max-width: 1923px;
   width: 100%;
@@ -84,6 +137,56 @@
   margin: 0;
   position: relative;
   right: -250px;
+}
+
+/*Second section content*/
+.second-section-content h2 {
+  color: #222626;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 113px;
+  margin-bottom: 30px;
+}
+
+.second-section-content .text-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-section-content .text-row .text-left-column {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-right: 27px;
+  color: #959595;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.second-section-content .text-row .text-left-column div {
+  margin-bottom: 20px;
+}
+
+.second-section-content .text-row .text-right-column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  padding-top: 98px;
+  color: #959595;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.second-section-content .text-row .text-right-column div {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
