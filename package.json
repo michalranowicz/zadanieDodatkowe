@@ -11,9 +11,9 @@
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
     "test:js": "jshint js/scripts.js",
-    "watch": "npm-run-all -p watch:*",
+    "watch": "npm-run-all -p  watch:*",
     "watch:browser-sync": "browser-sync start --server --files css/*.css *.html",
-    "watch:sassprefixer": "node-sass --output-style expanded --source-map true -o css sass && autoprefixer-cli css/style.css",
+    "watch:sassprefixer": "node-sass --watch --output-style expanded --source-map true -o css sass && autoprefixer-cli css/style.css",
     "build": "npm run build:clean && npm run build:sass",
     "build:clean": "rm -rf css/*.css",
     "build:sass": "node-sass --output-style compact -o css sass"
